@@ -13,13 +13,13 @@
 // {
 // Console.WriteLine("Boringday");
 // }
-Console.WriteLine ("Введите число");
-int num = Convert.ToInt32 (Console.ReadLine());
-if ( num % 7  == 0 || (num + 1) % 7 == 0)  
+Console.WriteLine("Введите число");
+int num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+if (num % 7 == 0 || (num + 1) % 7 == 0)
 {
-    Console.WriteLine ("Weekeend!!!");
+    Console.WriteLine("Weekeend!!!");
 }
-else 
+else
 {
-Console.WriteLine("Boringday");
+    Console.WriteLine("Boring day");
 }
